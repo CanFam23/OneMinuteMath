@@ -179,6 +179,7 @@ Operation(s): """).strip().lower()
 
     if llm_gen == 'y':
         try:
+            print("Waiting for Gemini...")
             problems = omm.generate_problems_llm(
                 min_num, max_num, num_problems, OPERATIONS)
         except ClientError:
