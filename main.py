@@ -141,14 +141,14 @@ def main():
     # Get operations to include
     while True:
         ops_input = input("""
-    What operations do you want to be included?
+What operations do you want to be included?
     Enter any combination of
     - 'a' for addition
     - 's' for subtraction
     - 'm' for multiplication
     - 'd' for division
     (Ex. 'as' for addition and subtraction, or 'asmd' for all)
-    Operation(s): """).strip().lower()
+Operation(s): """).strip().lower()
         check_quit(ops_input)
 
         ops_set = set(ops_input)
