@@ -23,16 +23,16 @@ GEMINI_API_KEY=your_key
 
 ## Virtual Environment (Optional)
 
-If you want to set up a virtual environment, follow these steps:
-0. Open a terminal and navigate to the location you'd like it to be created.
+If you want to set up a virtual environment, follow these steps:  
+1. Open a terminal and navigate to the location you'd like it to be created.
 
-1. Create a new venv (replace `venv_name` with your preferred name):
+2. Create a new venv (replace `venv_name` with your preferred name):
 
 ```bash
 $ python3 -m venv venv_name
 ```
 
-2. Activate the venv:
+3. Activate the venv:
 
 ```bash
 $ source path/to/venv/venv_name/bin/activate
