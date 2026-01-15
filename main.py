@@ -73,7 +73,7 @@ def main():
     # Ask user if they want Gemini to generate their problems
     while True:
         llm_gen = input(
-            "Would you like Gemini (AI) to generate your answers? (y/n) ").strip().lower()
+            "Would you like Gemini (AI) to generate your problems? (y/n) ").strip().lower()
 
         check_quit(llm_gen)
 
