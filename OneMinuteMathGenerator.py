@@ -102,7 +102,11 @@ class OneMinuteMathGenerator():
             print(error_msg)
             return []
 
-        client = genai.Client()
+        try:
+            client = genai.Client()
+        except ValueError:
+            print("Gemini is missing a API key!")
+            return []
 
         # Prompt to send to Gemini
         prompt = f"""
